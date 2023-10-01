@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "pnpx prettier --write ./**/*.html",
+    "tailwindcss": "pnpx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Paweł Sioda <pawel.sioda@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4"
+  }
+}
